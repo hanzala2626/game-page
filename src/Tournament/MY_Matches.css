@@ -1,0 +1,191 @@
+.Appp{
+    background-color: rgb(10, 10, 10);
+    height: 100vh;
+    font-size: 100%;
+}
+
+
+ @media(max-width:500px){
+    .Appp{
+      font-size: 80%;
+    }
+     } 
+
+   
+ 
+
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+height: 4rem;
+padding: 0px 10px;
+}  
+.back_space{
+   display: flex;
+   margin-right: 130px;
+}
+
+
+.back_arrow{
+margin-right: 10px;
+margin-left: 20px;
+}
+.completed{
+    color: #FFFFFF;
+    font-weight: 650;
+font-size: 1.2rem;
+}
+
+
+.congratulation_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;
+height: 4rem;
+margin-bottom: .9rem;
+background-color: #CFEF2E;
+color: black;
+}
+.congratulation_badge{
+    margin-left: 22px;
+
+}
+.heading{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+margin-left: 14px;
+}  
+@media(max-width:309px) {
+    .heading{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    margin-left: 2px;
+    } 
+    .cong_size{
+        font-size: 1rem;
+        font-weight: 600;
+    line-height: 17px;
+    }
+    .congratulation_badge{
+        margin-left: 6px;
+    
+    }
+    .cong_size{
+        font-size: .9rem;
+        font-weight: 500;
+    line-height: 17px;
+    }
+}
+.cong_size{
+    font-size: 1.3rem;
+    font-weight: 700;
+line-height: 27px;
+}
+.cong_won_size{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+
+ 
+
+.opsquad{
+    background: linear-gradient(123.6deg, #33383D -34.97%, #1C1E21 128.83%);
+    border: 1px solid #CFEF2E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    margin:0.9rem 0.64rem;
+    padding: 0px 6px;
+color: #FFFFFF;
+
+}
+.squad_top_wrap{
+    display: flex;
+    padding: 9px;
+}
+.opsquad_heading{
+margin-left: .25rem;
+font-weight: 600;
+font-size: 1.1rem;
+line-height: .8rem;
+}
+.opsquad_detail{
+    margin-left: .25rem;
+    
+}
+/* op-squad-team */
+.team-member_wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+      width: 100%;
+      margin-bottom: 10px;
+}
+.team-data_align{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.team-data_align img{
+   height: 3.9rem;
+   width: 3.9rem;
+}
+@media(max-width:372px){
+    .team-data_align img{
+        height: 3rem;
+        width: 3rem;
+     }
+}
+/* vs */
+.team_wrapper_vs{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #222222;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 3.1rem;
+    font-weight: 400;
+font-size: 1rem;
+line-height: .7rem;
+}
+.team_wrapper_vs:nth-child(odd){
+    height: 30px;
+    width: 30px;
+}
+.team_y{
+    margin-right: 7px;
+}
+
+
+.btn_Wraper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    color: wheat;
+}
+.btnOutline{
+    display: flex;
+    flex-direction: row;
+    max-width: 475px;
+    height:2.9rem;
+
+}
+@media (max-width:500px) {
+    .btnOutline{
+        max-width: 300px;
+    }
+}
+
+
+/*  */
